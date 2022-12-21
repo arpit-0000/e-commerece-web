@@ -1,0 +1,111 @@
+.box-container {
+  display: grid;
+
+  /* background-color: aqua; */
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 12px;
+  row-gap: 12px;
+  margin-top: 20px;
+  border-bottom: 1px solid black;
+}
+.item {
+  /* background-color: blue;
+  height: 133px;
+  width: 120px; */
+}
+
+.item1 {
+  /* background-color: rgb(0, 0, 18); */
+  /* height: 133px;
+  width: 120px; */
+
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+.item1 img {
+  height: 500px;
+
+  width: 600px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.item2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+.item3 {
+  height: 133px;
+  width: 120px;
+}
+.item3 img {
+  border-radius: 10px;
+  height: 133px;
+  width: 120px;
+}
+
+.item4 {
+  height: 133px;
+  width: 120px;
+}
+.item4 img {
+  border-radius: 10px;
+  height: 133px;
+  width: 120px;
+}
+.item5 {
+  height: 133px;
+  width: 120px;
+}
+.item5 img {
+  border-radius: 10px;
+  height: 133px;
+  width: 120px;
+}
+
+.info {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.info h2 {
+  font-weight: 400;
+}
+#questionserachbar {
+  width: 800px;
+}
+
+/* #questionserachbar:hover {
+  border-bottom: 2px solid #ff4321;
+  box-shadow: 1px;
+} */
+.questionaboutproduct {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.border {
+  border-bottom: 1px gray solid;
+}
+
+.recommendedproducts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* background-color: aqua; */
+  margin-bottom: 300px;
+  column-gap: 5px;
+}
+
+.item {
+  height: 500px;
+  width: 250px;
+  /* background-color: black; */
+}
+
+.item img {
+  height: 300px;
+  width: 250px;
+}
